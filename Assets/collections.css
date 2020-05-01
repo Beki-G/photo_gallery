@@ -1,3 +1,4 @@
+
 body{
     width: 100%;
     margin: 0 auto; 
@@ -13,8 +14,18 @@ main{
     width: 80%;
     text-align: center;
     margin: 0 auto;
+
 }
-.blockquote,
-.blockquote-footer{
-    font-family: 'Questrial', sans-serif;
+
+.bsCarousel{
+    width: 100%;
+    margin: 0 auto;
+    height:80vh;
 }
+
+.carousel-inner img {
+    width: auto;
+    max-height: 80vh;
+    object-fit: contain;
+
+ }

@@ -7,7 +7,7 @@
 
         <!--Link Bootstrap & CSS File-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="../Assets/main.css">
+        <link rel="stylesheet" href="../Assets/collections.css">
 
         <!--Google Fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -52,7 +52,43 @@
 
         <header>
             <h1>Jita's life as a Pet</h1>
-        </header>           
+        </header>  
+        
+        <br>
+
+        <main>
+            <section class="bsCarousel">
+    
+                <!--Carousel-->
+                <div id="carouselPetImages" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="10000">
+                            <img src="../Assets/img/Jita/Cockatiel1.JPG" class="d-block w-100" alt="London Eye at night">
+                        </div>
+                        <div class="carousel-item" data-interval="10000">
+                            <img src="../Assets/img/Jita/Cockatiel2.JPG" class="d-block w-100" alt="Teatime at the British Mueseum">
+                        </div>  
+                        <div class="carousel-item" data-interval="10000">
+                            <img src="../Assets/img/Jita/Cockatiel3.JPG" class="d-block w-100" alt="Building in London">
+                        </div>
+                        <div class="carousel-item" data-interval="10000">
+                            <img src="../Assets/img/Jita/Cockatiel4.JPG" class="d-block w-100" alt="Random alleyway in London">
+                        </div>
+                        <div class="carousel-item" data-interval="10000">
+                            <img src="../Assets/img/Jita/Cockatiel5.JPG" class="d-block w-100" alt="Rosetta Stone in Bristish Museum">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselPetImages" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselPetImages" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </main>
 
         <!--Link jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
