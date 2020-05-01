@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Gallery</title>
+
+        <!--Link Bootstrap & CSS File-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Assets/main.css">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!--Nav Bar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="./index.html">Beki's Gallery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Collections
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./pages/pet.html">Jita</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./pages/paris.html">2017:Paris</a>
+                    <a class="dropdown-item" href="./pages/london.html">2017:London</a>
+                    <a class="dropdown-item" href="./pages/italy.html">2017:Italy</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+        </nav>
+        
+        <header>
+            <br><br><br>
+
+            <h1>Welcome to Beki's Gallery! Enjoy from the different collections below.</h1>
+        </header>
+        <br>
+        
+        <main>
+            <p>As someone who enjoys taking pictures but not a professtional in any means, I love taking in the moment pictures. Capturing the essence of a single second is what I find passion in. The collections where taken by my Nikon Camera or my iPhone camera.</p>
+            
+            <br><br>
+
+            <!--Card columns from Bootstrap-->
+            <div class="card-columns">
+
+                <!--Paris Card-->
+                <div class="card shadow mb-5 rounded"> 
+                    <img src="./Assets/img/Paris/Eiffiel_Tower2.JPG" class="card-img-top" alt="Eiffiel Tower">
+                    <div class="card-body">
+                        <h5 class="card-title">2017:Paris Collection</h5>
+                        <p class="card-text">As part of tour group I went to Paris, which was my most favorite place</p>
+                        <a class="btn btn-primary" href="./pages/paris.html" role="button">Go to Collection</a>
+                    </div>
+                </div>
+
+                <!--Quote-->
+                <div class="card bg-info text-white text-left p-3 shadow mb-5 rounded">
+                    <blockquote class="blockquote mb-0 text-white">
+                        <p>Don't listen to what they say, go see</p>
+                        <footer class="blockquote-footer text-white">
+                            <small>Chinese Proverb</small>
+                        </footer>
+                    </blockquote>
+                </div>
+                
+                <!--Jita Card-->
+                <div class="card shadow mb-5 rounded">
+                  <img src="./Assets/img/Jita/Cockatiel1.JPG" class="card-img-top" alt="bird">
+                  <div class="card-body">
+                    <h5 class="card-title">Jita's Collection</h5>
+                    <p class="card-text">Check out my bird's personal collection here</p>
+                    <a class="btn btn-primary" href="./pages/pet.html" role="button">Go to Collection</a>
+                  </div>
+                </div>
+
+                <!--Quote-->
+                <div class="card bg-info text-white text-center p-3 shadow-sm mb-5 rounded">
+                  <blockquote class="blockquote mb-0">  
+                    <p>Do not look back and grieve over the past, for it is gone; and do not be troubled about the future, for it has yet to come. Live in the present, and make it so beautiful that it will be worth remembering</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Ida Scott Taylor 
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+
+                <!--Italy Card-->
+                <div class="card shadow-lg mb-5 rounded">
+                    <img src="./Assets/img/Italy/Medici Bridge.jpg" class="card-img-top" alt="Medici Bridge">
+                    <div class="card-body">
+                      <h5 class="card-title">2017:Italy</h5>
+                      <p class="card-text">The last stop of the tour group and I visted the streets of Rome and Florence.</p>
+                      <a class="btn btn-primary" href="./pages/italy.html" role="button">Go to Collection</a>
+                    </div>
+                </div>
+
+                <!--London Card-->
+                <div class="card shadow-lg mb-5 rounded">
+                  <img src="./Assets/img/London/Statue_London.JPG" class="card-img-top" alt="Statue in front of Brimingham Palace">
+                  <div class="card-body">
+                    <h5 class="card-title">2017:London</h5>
+                    <p class="card-text">First time I left the Pacific Oceans side and flew across the Atlantic to visit London as part of tour group.</p>
+                    <a class="btn btn-primary" href="./pages/london.html" role="button">Go to Collection</a>
+                  </div>
+                </div>
+
+                <!--Quote-->
+                <div class="card bg-info text-white p-3 text-right">
+                  <blockquote class="blockquote mb-0">
+                    <p>A mind that is stretched by a new experience can never go back to its old dimensions.</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Oliver Wendell Holmes
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+            </div>
+
+            <!--Link jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </main>
+
+    </body>
+</html>
